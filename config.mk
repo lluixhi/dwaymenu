@@ -1,4 +1,4 @@
-# dmenu version
+# dwaymenu version
 VERSION = 4.5-tip
 
 # paths

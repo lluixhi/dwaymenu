@@ -69,7 +69,7 @@ main(int argc, char *argv[]) {
 	for(i = 1; i < argc; i++)
 		/* these options take no arguments */
 		if(!strcmp(argv[i], "-v")) {      /* prints version information */
-			puts("dmenu-"VERSION", © 2006-2014 dmenu engineers, see LICENSE for details");
+			puts("dwaymenu-"VERSION", © 2006-2014 dwaymenu engineers, see LICENSE for details");
 			exit(EXIT_SUCCESS);
 		}
 		else if(!strcmp(argv[i], "-b"))   /* appears at the bottom of the screen */
@@ -620,7 +620,7 @@ setup(void) {
 
 void
 usage(void) {
-	fputs("usage: dmenu [-b] [-f] [-i] [-l lines] [-p prompt] [-fn font] [-m monitor]\n"
+	fputs("usage: dwaymenu [-b] [-f] [-i] [-l lines] [-p prompt] [-fn font] [-m monitor]\n"
 	      "             [-nb color] [-nf color] [-sb color] [-sf color] [-v]\n", stderr);
 	exit(EXIT_FAILURE);
 }

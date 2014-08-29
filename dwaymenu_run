@@ -1,0 +1,2 @@
+#!/bin/sh
+dwaymenu_path | dwaymenu "$@" | ${SHELL:-"/bin/sh"} &
