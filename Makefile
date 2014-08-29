@@ -34,7 +34,7 @@ stest: stest.o
 
 clean:
 	@echo cleaning
-	@rm -f dwaymenu stest ${OBJ} dwaymenu-${VERSION}.tar.gz
+	@rm -f dwaymenu stest ${OBJ} dwaymenu-${VERSION}.tar.gz config.h
 
 dist: clean
 	@echo creating dist tarball
